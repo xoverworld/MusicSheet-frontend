@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Play, Pause, Download, Trash2 } from 'lucide-react';
 import axios from 'axios';
 import { useAuth, API_URL } from '../contexts/AuthContext';
-import SheetMusicCanvas from '../components/SheetMusicCanvas';
+import SheetMusicCanvas from '../Components/SheetMusicCanvas';
 import './SheetView.css';
 
 function SheetView() {

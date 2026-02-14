@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Music, Upload, Mic, Square, Play, Pause, Loader, Save } from 'lucide-react';
 import axios from 'axios';
 import { useAuth, API_URL } from '../contexts/AuthContext';
-import SheetMusicCanvas from '../components/SheetMusicCanvas';
+import SheetMusicCanvas from '../Components/SheetMusicCanvas';
 import './Home.css';
 
 function Home() {
